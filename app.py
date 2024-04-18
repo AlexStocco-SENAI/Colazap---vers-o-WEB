@@ -133,5 +133,5 @@ def api_get_mensagens(tel_destinatario):
     return jsonify(mensagens), 200
 
 
-app.run(debug=True)
+app.run(host='0.0.0.0',port='8080' )
 
